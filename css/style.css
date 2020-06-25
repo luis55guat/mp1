@@ -1,0 +1,37 @@
+.topmenu{
+    width: 90%;
+    max-width: 1000px;
+    height: 80px;
+    margin: 20px 0 0 0;
+    padding: 5px;
+}
+    #a1{
+        display: flex;
+        justify-content: space-between;
+    }
+        #a11{
+            display: inline-block;
+            color: #3a5d81;
+        }
+            .topmenu span{
+                font-size: 20px;
+                color: #004455;
+                padding: 7px;
+                border: 1px solid #2c3e50;
+            }
+    .navega a{
+        display: inline-block;
+        color: #2c3e50;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-right: 1px solid #004455;
+    }
+    .navega a:hover{
+        /* text-decoration: underline; */
+        border-bottom: 1px solid #000;
+    }
+.encabeza{
+    width: 90%;
+    max-width: 1000px;
+}
+
